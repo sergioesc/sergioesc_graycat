@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Mohave:wght@300&family=Poppins:wght@100;300;400&family=Raleway:ital,wght@0,300;0,700;1,400&family=Roboto:ital,wght@0,400;1,100;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url("https://i.picsum.photos/id/765/1360/720.jpg?blur=5&hmac=sNBh0YivzinatzooGO6OUSbUYZxC6xf6AY-V_tF6rp4")
+    center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.mobile {
+  top: -100%;
+}
+.small-container {
+  max-width: 1000px;
+}
+.medium-container {
+  max-width: 1100px;
+}
+.category-container {
+  background-color: rgba(40, 40, 40, 0.3);
+}
+.imagen {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.link-white {
+  color: white;
+  text-decoration: none;
+}
+.search-box-container {
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+.form-bg-white a {
+  color: black;
+}
+.card-category {
+  background-color: rgba(40, 40, 40, 0.3);
+  width: 100%;
+}
+.card-body {
+  background-color: transparent;
+}
+
+.card-category a img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card-product-unique {
+  margin-top: 100px;
+}
+@media (max-width: 768px) {
+  .card-product-unique {
+    margin-top: 20px;
+  }
+}
+
+.product img {
+  width: 100%;
+  max-width: 400px;
+}
+.img-large {
+  width: 100%;
+  height: 90vh;
+  object-fit: cover;
+}
+
+.navbar-toggler {
+  border: none;
+}
